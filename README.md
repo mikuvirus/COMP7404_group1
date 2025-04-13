@@ -2,7 +2,8 @@
 
 # Conformer Speech Recognition (Hybrid CTC + Attention)
 
-This repository contains an implementation of a hybrid speech recognition system based on the Conformer encoder and a Transformer-style decoder. The model is trained and evaluated on the LibriSpeech dataset (train-clean-100 subset).
+This repository contains an implementation of a hybrid speech recognition system based on the Conformer encoder and a Transformer-style decoder. The model is trained and evaluated on the LibriSpeech dataset (train-clean-100 subset). You can download it directly from:
+[https://www.openslr.org/resources/](https://www.openslr.org/12)
 
 Install dependencies:
 ```
