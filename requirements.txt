@@ -1,0 +1,9 @@
+absl-py==2.1.0
+einops==0.8.1
+jiwer==3.1.0
+numpy==1.26.4
+sentencepiece==0.2.0
+torch==2.1.2
+torchaudio==2.1.2
+torchinfo==1.8.0
+tqdm
