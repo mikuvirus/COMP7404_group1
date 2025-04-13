@@ -23,7 +23,7 @@ python scripts/preprocess_data.py \
 
 For training:
 ```
-python train.py \
+python scripts/train.py \
   --data_dir data \
   --epochs 35 \
   --batch_size 32 \
@@ -41,7 +41,7 @@ python scripts/split_by_duration.py --manifest data/dev.tsv --output_dir data_sp
 
 Evaluate:
 ```
-python evaluation.py \
+python scripts/evaluation.py \
   --model_path data/best_model.pth \
   --short_manifest data_split/dev_short.tsv \
   --long_manifest data_split/dev_long.tsv \
