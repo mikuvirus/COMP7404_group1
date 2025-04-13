@@ -32,6 +32,8 @@ python train.py \
   --ctc_weight 0.3
 ```
 For Evaluation
+
+
 Split dev.tsv into long and short sets:
 ```
 python scripts/split_by_duration.py --manifest data/dev.tsv --output_dir data_split
